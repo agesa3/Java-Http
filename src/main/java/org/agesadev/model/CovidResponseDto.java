@@ -2,11 +2,19 @@
 package org.agesadev.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
 import javax.annotation.processing.Generated;
 import java.util.List;
 
+@Data
+@NoArgsConstructor
+@Builder
+@AllArgsConstructor
 @Generated("net.hexar.json2pojo")
-@SuppressWarnings("unused")
 public class CovidResponseDto {
 
     @JsonProperty("Countries")
