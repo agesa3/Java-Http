@@ -1,5 +1,5 @@
 
-package org.agesadev.model;
+package org.agesadev.model.dto;
 
 
 import lombok.AllArgsConstructor;
@@ -10,9 +10,7 @@ import lombok.NoArgsConstructor;
 import javax.annotation.processing.Generated;
 
 @Data
-@NoArgsConstructor
 @Builder
-@AllArgsConstructor
 @Generated("net.hexar.json2pojo")
 public class Premium {
 
